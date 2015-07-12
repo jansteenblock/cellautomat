@@ -17,9 +17,11 @@ import javax.swing.Timer;
 public class mycellautomat extends javax.swing.JFrame {
     cellgrid livingCells = new cellgrid();
     Boolean running = false;
+    int test = 0;
 
     public mycellautomat() {
         initComponents();
+        // test for git
         
         setLocation(100, 50);
         
